@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+:root {
+
+    --montserrat: "Montserrat", sans-serif;
+
+    --cor1: #022859;
+    --cor2: #2291F2;
+    --cor3: #368DD9;
+
+}
+/* ESTILOS GERAIS */
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: var(--montserrat);
+}
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--cor1);
+    color: white;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec {
+    padding-top: 105px;
+    padding-bottom: 105px;
+ }
+ 
+ .cta {
+     padding-bottom: 210px;
+ }
+
+.btn {
+    font-family: var(--montserrat);
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+    border: 1px solid var(--cor2);
+    padding: 10px;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.btn:hover {
+    background-color: var(--cor2);
+    color: white;
+    box-shadow: 1px 1px 15px var(--cor2);
+    transform: scale(1.2);
+}
+
+.txt h1 {
+    color: white;
+    font-size: 2em;
+    font-family: var(--montserrat);
+    margin-bottom: 20px;
+}
+/* FIM ESTILOS GERAIS */
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+/* FIM HEADER */
+
+/* MAIN */
+main {
+    width: 90vw;
+}
+/* FIM MAIN */
+
+/* SECTION */
+
+/* FIM SECTION */
+
+/* FOOTER */
+footer {
+    padding: 15px;
+    padding-bottom: 20px;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer > img {
+    width: 100px;
+    height: 60px;
+}
+
+footer > p > span {
+   text-decoration: none;
+   color: var(--cor2);
+   font-size: 1.1em;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+}
+
+footer > ul > li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+footer > ul {
+    margin-bottom: 20px;
+}
+
+#rs-email {
+    background: #f03535;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+#rs-telefone {
+    background: #18D911;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+#rs-instagram {
+    background: linear-gradient(to right, #F2AF5C, #F26430, #F24968, #D9328E, #983BBF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+#rs-facebook {
+    background: linear-gradient(to left, #C2DCF2, #8DC3F2, #52A8F2, #138AF2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+/* FIM FOOTER */
