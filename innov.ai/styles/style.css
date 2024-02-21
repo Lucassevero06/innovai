@@ -41,9 +41,12 @@ body {
 }
 
 .topo-site {
-    background-image: linear-gradient(to left, );
-    background-size: 500% 100%;
-    animation: degrade-animado 3s infinite alternate;
+    background: url(../imagens/teste1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    height: 450px;
 }
 
 .flex {
@@ -53,12 +56,31 @@ body {
     flex-direction: column;
 }
 
+/* .animation {
+    border-right: 5px solid;
+    width: 18ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: digitando 2s steps(18), piscando 0.5s infinite step-end alternate;
+}
+
+@keyframes digitando {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes piscando {
+    50% {
+        border-color: transparent;
+    }
+} */
+
 .sec {
     padding-top: 140px;
-    padding-bottom: 100px;
  }
  
- .cta {
+.cta {
     padding-bottom: 210px;
  }
 
@@ -88,7 +110,7 @@ body {
 
 /* HEADER */
 header {
-    background: linear-gradient(to bottom, black, black, #022859);
+    background: linear-gradient(165deg, black, black, #071521, #133B5E);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -98,7 +120,7 @@ header {
 
 /* MAIN */
 main {
-    width: 95vw;
+    min-width: 96vw;
 }
 /* FIM MAIN */
 
