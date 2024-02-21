@@ -54,8 +54,8 @@ body {
 }
 
 .sec {
-    padding-top: 105px;
-    padding-bottom: 105px;
+    padding-top: 140px;
+    padding-bottom: 100px;
  }
  
  .cta {
@@ -98,7 +98,7 @@ header {
 
 /* MAIN */
 main {
-    width: 90vw;
+    width: 95vw;
 }
 /* FIM MAIN */
 
