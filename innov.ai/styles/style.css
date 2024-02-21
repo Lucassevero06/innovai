@@ -58,11 +58,26 @@ body {
     height: 560px;
 }
 
+.quem-somos {
+    background: url(../imagens/teste3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    height: 560px;
+}
+
 .flex {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.txt {
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 
 /* .animation {
@@ -108,12 +123,6 @@ body {
     color: white;
     box-shadow: 1px 1px 15px var(--cor2);
     transform: scale(1.2);
-}
-
-.txt {
-    padding: 10px;
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
 }
 
 .txt h1 {
