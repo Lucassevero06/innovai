@@ -49,6 +49,15 @@ body {
     height: 450px;
 }
 
+.skill {
+    background: url(../imagens/teste2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 560px;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -99,6 +108,12 @@ body {
     color: white;
     box-shadow: 1px 1px 15px var(--cor2);
     transform: scale(1.2);
+}
+
+.txt {
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 
 .txt h1 {
