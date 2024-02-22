@@ -86,6 +86,10 @@ span {
     height: 560px;
 }
 
+.quem-somos > .txt > .pessoa > img {
+    
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -95,7 +99,7 @@ span {
 
 .txt {
     padding: 20px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     border-radius: 20px;
 }
 
