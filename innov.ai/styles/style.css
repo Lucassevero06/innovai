@@ -8,14 +8,6 @@
     --cor2: #2291F2;
     --cor3: #368DD9;
 
-    /*
-    
-    
-    
-    
-    
-    */
-
 }
 /* ESTILOS GERAIS */
 * {
@@ -31,6 +23,11 @@ body {
     background-color: var(--cor1);
 }
 
+span {
+    color: var(--cor2);
+    font-weight: bolder;
+}
+/* ANIMAÇÃO DE CORES  */
 @keyframes degrade-animado {
     0% {
         background-position-x: 0%;
@@ -39,14 +36,14 @@ body {
         background-position-x: 100%;
     }
 }
-
+/* ANIMAÇÃO DE CORES  */
 .topo-site {
     background: url(../imagens/teste1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
     background-attachment: fixed;
-    height: 450px;
+    height: 480px;
 }
 
 .skill {
@@ -56,6 +53,28 @@ body {
     background-position: center center;
     background-attachment: fixed;
     height: 560px;
+    width: 96vw;
+    padding-bottom: 180px;
+}
+
+.skill > .txt > .entregaveis {
+    width: 330px;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5p;
+    box-shadow: 1px 1px 20px var(--cor2);
+}
+
+.skill > .txt > .entregaveis > h3, i {
+    font-size: 1.5em;
+    color: var(--cor2);
+}
+
+.skill > .txt > .entregaveis > i {
+    font-size: 2em;
 }
 
 .quem-somos {
@@ -75,9 +94,17 @@ body {
 }
 
 .txt {
-    padding: 10px;
+    padding: 20px;
     backdrop-filter: blur(10px);
     border-radius: 20px;
+}
+
+.txt > h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 40px;
 }
 
 /* .animation {
@@ -101,7 +128,7 @@ body {
 } */
 
 .sec {
-    padding-top: 140px;
+    padding-top: 100px;
  }
  
 .cta {
@@ -110,7 +137,8 @@ body {
 
 .btn {
     text-decoration: none;
-    color: var(--cor2);
+    background-color: var(--cor2);
+    color: white;
     font-weight: bold;
     border: 1px solid var(--cor2);
     padding: 10px;
@@ -119,16 +147,8 @@ body {
 }
 
 .btn:hover {
-    background-color: var(--cor2);
-    color: white;
-    box-shadow: 1px 1px 15px var(--cor2);
     transform: scale(1.2);
-}
-
-.txt h1 {
-    color: white;
-    font-size: 2em;
-    margin-bottom: 20px;
+    box-shadow: 1px 1px 15px var(--cor2);
 }
 /* FIM ESTILOS GERAIS */
 
@@ -138,7 +158,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
+    height: 115px;
 }
 /* FIM HEADER */
 
@@ -147,10 +167,6 @@ main {
     min-width: 96vw;
 }
 /* FIM MAIN */
-
-/* SECTION */
-
-/* FIM SECTION */
 
 /* FOOTER */
 footer {
