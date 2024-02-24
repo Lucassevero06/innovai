@@ -1,3 +1,4 @@
+/* INICIO DA PÁGINA */
 @charset "UTF-8";
 
 :root {
@@ -283,3 +284,4 @@ footer > ul {
     animation: degrade-animado 1.5s infinite alternate;
 }
 /* FIM FOOTER */
+/* FIM DA PÁGINA */
