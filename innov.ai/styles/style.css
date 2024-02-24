@@ -134,14 +134,14 @@ span {
  }
 
 .sec > .txt > img {
+    background-color: var(--cor2);
     height: 250px;
     display: block;
     margin: auto;
     border-radius: 50%;
-    box-shadow: 2px 2px 40px var(--cor2);
+    box-shadow: 2px 2px 50px var(--cor2);
     animation: float 5s ease-in-out infinite;
 }
-
 
 .flex {
     display: flex;
@@ -221,11 +221,6 @@ footer > .btn {
 footer > p {
     padding: 15px;
     border-top: 1px solid var(--cor2);
-}
-
-footer > img {
-    width: 100px;
-    height: 70px;
 }
 
 footer > p > span {
