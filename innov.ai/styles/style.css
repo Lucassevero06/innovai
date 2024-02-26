@@ -69,11 +69,11 @@ span {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    height: 730px;
+    height: 780px;
 }
 
 .skill > .txt > .entregaveis {
-    width: 310px;
+    width: 280px;
     background-color: black;
     text-align: center;
     padding: 15px;
@@ -109,6 +109,17 @@ span {
 
 .quem-somos > .txt {
     width: 80%;
+}
+
+.metodo {
+    background-color: white;
+    color: black;
+    height: 660px;
+}
+
+.metodo > .txt > h1 {
+    color:black;
+    font-weight: 800;
 }
 
 .cta {
@@ -152,7 +163,7 @@ span {
 
 .txt {
     padding: 20px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(5px);
     border-radius: 20px;
 }
 
