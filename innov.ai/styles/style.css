@@ -59,8 +59,7 @@ span {
 }
 
 .topo-site > .txt {
-    height: 450px;
-    text-align: center;
+    margin: 150px 0;
 }
 
 .skill {
